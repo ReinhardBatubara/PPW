@@ -45,8 +45,12 @@ Proyek ini dikembangkan menggunakan **Laravel 11** dengan arsitektur modern, ber
 
 ---
 
-## 📂 Struktur Utama Folder `DelDeals`
+## 📂 Struktur Repositori (Monorepo)
 
+Repositori ini terdiri dari 2 folder utama pengembangan:
+
+### 1. [DelDeals (Versi Laravel)](file:///C:/Users/acer/AppData/Local/Temp/ppw_combine/PPW/DelDeals)
+Versi sistem marketplace lengkap yang dikembangkan menggunakan framework Laravel 11.
 ```bash
 DelDeals/
 ├── app/
@@ -63,6 +67,16 @@ DelDeals/
 ├── routes/
 │   └── web.php              # Rute navigasi halaman web
 └── vite.config.js           # Konfigurasi build tool Vite
+```
+
+### 2. [DelDeals_Mockup (Versi Statis)](file:///C:/Users/acer/AppData/Local/Temp/ppw_combine/PPW/DelDeals_Mockup)
+Versi awal halaman beranda statis (mockup) yang dirancang menggunakan HTML, CSS, dan JavaScript statis.
+```bash
+DelDeals_Mockup/
+├── home.html                # Struktur halaman HTML statis
+├── home.css                 # Lembar gaya CSS statis
+├── home.js                  # Skrip interaktivitas dasar
+└── [Aset Gambar...]         # File logo, latar belakang, dan contoh produk
 ```
 
 ---
