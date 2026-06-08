@@ -1,66 +1,140 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# 🛍️ DelDeals - Platform Marketplace & Promosi Lokal IT Del
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+[![Laravel](https://img.shields.io/badge/Laravel-11.9-red?style=for-the-badge&logo=laravel)](https://laravel.com)
+[![PHP](https://img.shields.io/badge/PHP-8.2%2B-blue?style=for-the-badge&logo=php)](https://php.net)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-3.x-38bdf8?style=for-the-badge&logo=tailwind-css)](https://tailwindcss.com)
+[![Vite](https://img.shields.io/badge/Vite-5.x-646cff?style=for-the-badge&logo=vite)](https://vite.dev)
 
-## About Laravel
+**DelDeals** adalah platform web e-commerce & marketplace lokal yang dirancang khusus untuk memfasilitasi civitas akademika **Institut Teknologi Del (IT Del)** dalam melakukan transaksi jual-beli, promosi barang bekas, sewa peralatan, serta berbagi informasi penawaran (*deals*) menarik di sekitar kampus Laguboti.
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Proyek ini dikembangkan menggunakan **Laravel 11** dengan arsitektur modern, berkinerja tinggi, dan responsif.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+---
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 🌟 Fitur Utama (Direncana & Dikembangkan)
 
-## Learning Laravel
+### 🔑 1. Sistem Otentikasi Pengguna
+*   **Registrasi & Login Akun:** Akses masuk aman bagi mahasiswa, dosen, staf, dan alumni IT Del.
+*   **Profil Pengguna:** Manajemen data pribadi, riwayat unggahan iklan/deals, dan daftar produk favorit.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+### 🏷️ 2. Manajemen Listing & Promosi (CRUD)
+*   **Katalog Deals Multi-Kategori:** Kategori produk fleksibel mulai dari buku kuliah, gadget, makanan/minuman, kos, hingga jasa/tutorial.
+*   **Unggah Iklan Mudah:** Fitur mengunggah foto produk, menetapkan harga, deskripsi barang, dan kontak penjual.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+### 🔍 3. Pencarian & Filter Cerdas
+*   **Pencarian Instan:** Menemukan barang/jasa dengan cepat berdasarkan kata kunci.
+*   **Filter Spesifik:** Penyaringan pencarian berdasarkan rentang harga, kondisi barang (baru/bekas), kategori, dan reputasi penjual.
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### 💬 4. Hubungan Penjual & Pembeli (Integrasi Kontak)
+*   **Hubungi Penjual:** Integrasi tombol pintas ke WhatsApp atau Telegram penjual untuk mempercepat negosiasi transaksi.
+*   **Sistem Tanya Jawab:** Kolom diskusi/komentar di setiap halaman produk untuk mengajukan pertanyaan sebelum membeli.
 
-## Laravel Sponsors
+### 🛡️ 5. Moderasi & Admin Dashboard
+*   **Review Iklan:** Validasi listing oleh admin sebelum dipublikasikan untuk mencegah konten terlarang.
+*   **Manajemen Kategori:** Admin dapat menambah atau memodifikasi kategori produk secara dinamis.
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+---
 
-### Premium Partners
+## 🛠️ Tech Stack & Arsitektur
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
+*   **Backend Framework:** Laravel 11.x
+*   **Frontend Engine:** Blade Templating Engine, Tailwind CSS, & Alpine.js
+*   **Asset Bundler:** Vite 5.x
+*   **Database Relasional:** MySQL (default) / SQLite (untuk pengujian)
+*   **Otentikasi:** Laravel Breeze / Custom Session
 
-## Contributing
+---
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## 📂 Struktur Utama Folder `DelDeals`
 
-## Code of Conduct
+```bash
+DelDeals/
+├── app/
+│   ├── Http/Controllers/    # Berisi logika bisnis aplikasi
+│   └── Models/              # Model data Eloquent (User, Deal, Category, dll)
+├── config/                  # Pengaturan konfigurasi framework Laravel
+├── database/
+│   ├── migrations/          # Definisi skema tabel database
+│   └── seeders/             # Data sampel awal (kategori default, dummy user)
+├── resources/
+│   ├── views/               # Tampilan UI berbasis Blade template
+│   ├── css/                 # Aset styles (Tailwind CSS)
+│   ├── js/                  # Aset Javascript (Alpine.js)
+├── routes/
+│   └── web.php              # Rute navigasi halaman web
+└── vite.config.js           # Konfigurasi build tool Vite
+```
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+---
 
-## Security Vulnerabilities
+## ⚙️ Cara Instalasi & Menjalankan Proyek Lokal
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+Ikuti petunjuk di bawah ini untuk mengaktifkan repositori di komputer Anda:
 
-## License
+### 1. Prasyarat Sistem
+*   **PHP >= 8.2** terpasang.
+*   **Composer** (Manajer dependensi PHP).
+*   **Node.js & NPM** (Untuk kompilasi aset CSS/JS).
+*   Server database (MySQL/MariaDB).
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### 2. Kloning Repositori
+```bash
+git clone https://github.com/ReinhardBatubara/PPW.git
+cd PPW/DelDeals
+```
+
+### 3. Instal Dependensi PHP
+```bash
+composer install
+```
+
+### 4. Instal Dependensi Node & Frontend
+```bash
+npm install
+```
+
+### 5. Setup File Lingkungan (`.env`)
+Salin file konfigurasi contoh:
+```bash
+cp .env.example .env
+```
+Buka file `.env` di text editor Anda, lalu sesuaikan koneksi database Anda:
+```env
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=db_deldeals
+DB_USERNAME=root
+DB_PASSWORD=your_password
+```
+
+### 6. Generate Kunci Aplikasi
+```bash
+php artisan key:generate
+```
+
+### 7. Jalankan Migrasi Database
+Buat database bernama `db_deldeals` terlebih dahulu di MySQL server Anda, lalu migrasikan tabelnya:
+```bash
+php artisan migrate
+```
+
+### 8. Jalankan Server Lokal
+Jalankan backend Laravel dan frontend builder:
+
+**Terminal 1 (Laravel Server):**
+```bash
+php artisan serve
+```
+
+**Terminal 2 (Vite Builder):**
+```bash
+npm run dev
+```
+
+Buka peramban Anda lalu akses **`http://127.0.0.1:8000`**.
+
+---
+
+## 🏛️ Lisensi
+Aplikasi ini dikembangkan sebagai bagian dari tugas mata kuliah **Pengembangan Perangkat Lunak Web (PPW)** di **IT Del**. Lisensi di bawah **MIT License**.
